@@ -12,7 +12,7 @@ import shop.shoppingmall.status.ProductStatus;
 @Builder
 @AllArgsConstructor
 @Entity
-@Table(name = "product")
+@Table(name = "products")
 public class Product {
 
     @Id
