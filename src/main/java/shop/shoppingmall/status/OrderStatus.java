@@ -1,6 +1,5 @@
 package shop.shoppingmall.status;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -8,9 +7,9 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public enum ProductStatus {
+public enum OrderStatus {
 
-    ACTIVE("활성화"), INACTIVE("비활성화"), PENDING("보류");
+    ORDER("주문"), CANCEL("취소");
 
     private String value;
 }
