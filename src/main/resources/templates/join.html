@@ -2,17 +2,17 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>로그인</title>
+    <title>회원가입</title>
 </head>
 <body>
 
-<form action="/loginProc" method="post" name="loginForm">
+<form action="/joinProc" method="post" name="joinForm">
     <label for="username"></label><input id="username" type="text" name="username" placeholder="id"/>
     <label for="password"></label><input id="password" type="text" name="password" placeholder="password"/>
-    <input type="submit" value="login"/>
+    <label for="role"></label><input id="role" type="text" name="role" placeholder="role"/>
+    <label for="active"></label><input id="active" type="text" name="active" placeholder="active"/>
+    <input type="submit" value="join"/>
 </form>
-
-
 
 </body>
 </html>
