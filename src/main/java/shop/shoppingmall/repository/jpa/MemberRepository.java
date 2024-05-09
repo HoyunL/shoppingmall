@@ -1,4 +1,4 @@
-package shop.shoppingmall.repository;
+package shop.shoppingmall.repository.jpa;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

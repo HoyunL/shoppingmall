@@ -13,7 +13,7 @@ import static jakarta.persistence.FetchType.LAZY;
 @Builder
 @AllArgsConstructor
 @Entity
-@Table(name = "OrderProducts")
+@Table(name = "ORDER_PRODUCT")
 public class OrderProduct {
 
     @Id
