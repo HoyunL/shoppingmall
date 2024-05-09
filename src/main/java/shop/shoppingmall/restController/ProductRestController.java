@@ -1,4 +1,4 @@
-package shop.shoppingmall.restcontroller;
+package shop.shoppingmall.restController;
 
 
 import lombok.RequiredArgsConstructor;

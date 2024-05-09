@@ -1,4 +1,4 @@
-package shop.shoppingmall.entity;
+package shop.shoppingmall.status;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

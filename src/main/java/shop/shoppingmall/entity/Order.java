@@ -17,7 +17,7 @@ import static jakarta.persistence.FetchType.LAZY;
 @Builder
 @AllArgsConstructor
 @Entity
-@Table(name = "orders")
+@Table(name = "ORDERS")
 public class Order extends BaseTime {
 
     @Id

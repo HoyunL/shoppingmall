@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import shop.shoppingmall.dto.ProductDto;
 import shop.shoppingmall.entity.Product;
-import shop.shoppingmall.repository.ProductRepository;
+import shop.shoppingmall.repository.jpa.ProductRepository;
 
 import java.util.List;
 import java.util.stream.Collectors;

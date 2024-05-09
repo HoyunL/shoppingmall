@@ -1,6 +1,7 @@
 package shop.shoppingmall.dto;
 
 import lombok.Data;
+import shop.shoppingmall.etc.Address;
 
 @Data
 public class MemberDto {
@@ -13,4 +14,5 @@ public class MemberDto {
 
     private String active;
 
+    private Address address;
 }
