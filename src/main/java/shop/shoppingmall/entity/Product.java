@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 @Builder
 @AllArgsConstructor
 @Entity
-@Table(name = "products")
+@Table(name = "PRODUCTS")
 public class Product extends BaseTime {
 
     @Id

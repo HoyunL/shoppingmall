@@ -17,7 +17,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Entity
-@Table(name = "members")
+@Table(name = "MEMBERS")
 public class Member extends BaseTime {
 
     @Id
@@ -51,6 +51,17 @@ public class Member extends BaseTime {
                 .active(memberDto.getActive())
                 .build();
     }
+
+    public static Member dtoToEntity(MemberDto memberDto) {
+        return Member.builder()
+                .username(memberDto.getUsername())
+                .password(memberDto.getPassword())
+                .role(memberDto.getRole())
+                .active(memberDto.getActive())
+                .build();
+    }
+
+
 
     public void update(MemberDto memberDto) {
 

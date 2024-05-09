@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import shop.shoppingmall.etc.Address;
+import shop.shoppingmall.status.DeliveryStatus;
 
 import static jakarta.persistence.FetchType.LAZY;
 
