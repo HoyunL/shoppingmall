@@ -20,7 +20,7 @@ public class MemberService {
 
     private final MemberHistoryRepository memberHistoryRepository;
 
-    //private final BCryptPasswordEncoder bCryptPasswordEncoder;
+    private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Transactional
     public void joinProcess(MemberDto memberDto) {
