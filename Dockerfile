@@ -5,7 +5,7 @@ FROM openjdk:17
 WORKDIR /app
 
 # 빌드된 JAR 파일을 현재 디렉토리로 복사합니다.
-COPY build/libs/*.jar app.jar
+COPY build/libs/shoppingmall-0.0.1-SNAPSHOT.jar /app/shoppingmall-0.0.1-SNAPSHOT.jar
 
 # 애플리케이션을 실행합니다.
-CMD ["java", "-jar", "app.jar"]
+CMD ["java", "-jar","-Dspring.main.allow-bean-definition-overriding=true","shoppingmall-0.0.1-SNAPSHOT.jar"]
