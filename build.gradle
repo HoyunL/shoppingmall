@@ -47,6 +47,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'io.projectreactor:reactor-test'
     testImplementation 'org.springframework.graphql:spring-graphql-test'
+    runtimeOnly 'org.springframework.boot:spring-boot-docker-compose'
 }
 
 // Querydsl 설정부
