@@ -9,7 +9,7 @@ import shop.shoppingmall.dto.MemberDto;
 import shop.shoppingmall.entity.Member;
 import shop.shoppingmall.entity.MemberHistory;
 import shop.shoppingmall.repository.jpa.MemberRepository;
-import shop.shoppingmall.repository.mongo.MemberHistoryRepository;
+import shop.shoppingmall.mongoRepository.mongo.MongoHistoryRepository;
 
 @Transactional(readOnly = true)
 @RequiredArgsConstructor
@@ -18,7 +18,7 @@ public class MemberService {
 
     private final MemberRepository memberRepository;
 
-    private final MemberHistoryRepository memberHistoryRepository;
+    private final MongoHistoryRepository memberHistoryRepository;
 
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
