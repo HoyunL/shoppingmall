@@ -1,7 +1,6 @@
 package shop.shoppingmall.mongoRepository.mongo;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 import org.springframework.stereotype.Repository;
 import shop.shoppingmall.entity.MemberHistory;
 
